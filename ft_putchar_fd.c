@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 16:12:39 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/05 16:33:05 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:11:36 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 void	ft_putchar_fd(char c, int fd)
 {

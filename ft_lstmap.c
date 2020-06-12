@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/11 18:42:05 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/12 01:16:11 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 03:56:44 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {

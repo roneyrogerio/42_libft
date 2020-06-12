@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/04 16:26:07 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/08 15:12:35 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:10:11 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 static unsigned int	is_in_set(char c, char const *set)
 {

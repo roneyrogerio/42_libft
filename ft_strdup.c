@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/02 16:06:50 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/08 20:43:17 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:17:31 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 char	*ft_strdup(const char *s1)
 {

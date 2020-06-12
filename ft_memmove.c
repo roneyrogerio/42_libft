@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/28 19:25:23 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/03 17:42:33 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:20:08 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {

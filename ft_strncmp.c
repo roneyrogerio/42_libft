@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/25 12:38:54 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/01 19:58:50 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:14:05 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 int		ft_strncmp(const char *s1, const char *s2, size_t n)
 {

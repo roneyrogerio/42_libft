@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/24 19:27:15 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/03 20:23:19 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:29:33 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 int		ft_atoi(const char *str)
 {

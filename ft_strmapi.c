@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/08 12:53:43 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/08 20:40:27 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:18:28 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

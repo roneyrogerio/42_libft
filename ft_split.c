@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 16:52:13 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/10 15:08:14 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:13:41 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 #include <stdio.h>
 
 static size_t	words_count(char const *s, char c)

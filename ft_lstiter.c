@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/11 18:22:07 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/11 18:30:29 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 03:55:33 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 void	ft_lstiter(t_list *lst, void (*f)(void *))
 {

@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 10:12:58 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/06 10:14:52 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:20:30 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 void	ft_putendl_fd(char *s, int fd)
 {

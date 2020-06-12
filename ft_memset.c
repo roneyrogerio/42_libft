@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/27 19:19:01 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/01/27 19:50:30 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:21:07 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 void	*ft_memset(void *b, int c, size_t len)
 {

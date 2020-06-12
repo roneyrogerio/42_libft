@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/28 20:05:22 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/01/30 15:29:27 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:30:28 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {

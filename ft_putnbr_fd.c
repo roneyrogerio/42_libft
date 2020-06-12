@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/05 16:42:42 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/05 19:34:27 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:11:14 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 void	ft_putnbr_fd(int n, int fd)
 {

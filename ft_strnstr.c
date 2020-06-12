@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/30 16:06:50 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/08 18:43:48 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:19:48 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 char	*ft_strnstr(const char *hay, const char *nee, size_t len)
 {

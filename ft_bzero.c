@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/24 13:27:12 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/01/31 12:57:14 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:30:10 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 void	ft_bzero(void *s, size_t n)
 {

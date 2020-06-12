@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/25 14:31:18 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/09 15:30:28 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 04:12:46 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 {

@@ -6,11 +6,11 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/06 10:26:20 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/02/08 20:37:47 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/06/12 03:52:26 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "libft_int.h"
 
 char	*ft_itoa(int n)
 {
