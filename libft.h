@@ -6,7 +6,7 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/27 19:56:13 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/06/27 01:19:10 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/07/01 07:03:07 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ int				ft_isprint(int c);
 int				ft_isascii(int c);
 int				ft_isdigit(int n);
 int				ft_strncmp(const char *s1, const char *s2, size_t n);
+int				ft_strcmp(const char *s1, const char *s2);
 size_t			ft_strlen(const char *s);
 size_t			ft_strlcpy(char *dst, const char *src, size_t dstsize);
 int				ft_isalpha(int c);
