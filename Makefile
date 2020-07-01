@@ -6,7 +6,7 @@
 #    By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/01/26 15:07:48 by rde-oliv          #+#    #+#              #
-#    Updated: 2020/07/01 07:04:44 by rde-oliv         ###   ########.fr        #
+#    Updated: 2020/07/01 07:14:52 by rde-oliv         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ SRC		= ft_strmapi.c ft_split.c ft_splitclear.c ft_itoa.c ft_putendl_fd.c \
 		  ft_memmove.c ft_memccpy.c ft_memcpy.c ft_memset.c ft_atoi.c \
 		  ft_bzero.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c \
 		  ft_isprint.c ft_strlcpy.c ft_strlen.c ft_strncmp.c ft_strcmp.c \
-		  ft_tolower.c ft_toupper.c
+		  ft_tolower.c ft_toupper.c ft_splitlen.c
 B_SRC	= ft_lstmap.c ft_lstiter.c ft_lstclear.c ft_lstdelone.c \
 		  ft_lstadd_back.c ft_lstlast.c ft_lstsize.c ft_lstadd_front.c \
 		  ft_lstnew.c 

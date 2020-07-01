@@ -6,7 +6,7 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/27 19:56:13 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/07/01 07:03:07 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/07/01 07:15:40 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,6 +48,7 @@ void			ft_putnbr_fd(int n, int fd);
 void			ft_putendl_fd(char *s, int fd);
 char			*ft_itoa(int n);
 char			**ft_split(char const *s, char c);
+int				ft_splitlen(char **split);
 void			ft_splitclear(char **array);
 char			*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 void			*ft_lstnew(void *content);
