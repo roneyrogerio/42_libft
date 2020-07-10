@@ -6,7 +6,7 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/11 18:42:05 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/06/12 03:56:44 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/07/10 06:00:59 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 	{
 		if (!(elem = ft_lstnew(f(lst->content))))
 		{
-			ft_lstclear(&lst, del);
-			if (new_lst)
-				ft_lstclear(&new_lst, del);
+			ft_lstclear(&new_lst, del);
 			break ;
 		}
 		if (!new_lst)
