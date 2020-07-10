@@ -6,7 +6,7 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/11 16:56:01 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/06/12 03:54:40 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/07/10 06:23:03 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,17 @@
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
-	t_list	**ptr;
-	t_list	*list;
+	t_list	*ptr;
+	t_list	*next;
 
 	if (!lst || !*lst)
 		return ;
-	list = &**lst;
-	if (list->next)
+	ptr = *lst;
+	while (ptr != NULL)
 	{
-		ptr = &(*lst)->next;
-		ft_lstclear(ptr, del);
+		next = ptr->next;
+		ft_lstdelone(ptr, del);
+		ptr = next;
 	}
-	ft_lstdelone(*lst, del);
 	*lst = NULL;
 }
