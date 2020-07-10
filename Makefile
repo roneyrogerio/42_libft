@@ -6,7 +6,7 @@
 #    By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/01/26 15:07:48 by rde-oliv          #+#    #+#              #
-#    Updated: 2020/07/10 14:52:25 by rde-oliv         ###   ########.fr        #
+#    Updated: 2020/07/10 17:44:26 by rde-oliv         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -36,7 +36,7 @@ $(NAME): $(OBJS)
 bonus: $(NAME) $(NAME_BONUS)
 
 $(NAME_BONUS): $(B_OBJS)
-	ar rcs $(NAME_BONUS) $(B_OBJS)
+	ar rcsT $(NAME_BONUS) $(B_OBJS)
 	ar rcsT $(NAME) $(NAME_BONUS)
 
 %.o: %.c
