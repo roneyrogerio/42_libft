@@ -6,7 +6,7 @@
 #    By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/01/26 15:07:48 by rde-oliv          #+#    #+#              #
-#    Updated: 2020/07/10 17:44:26 by rde-oliv         ###   ########.fr        #
+#    Updated: 2020/07/11 09:25:30 by rde-oliv         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -26,18 +26,14 @@ OBJS	= $(SRC:.c=.o)
 B_OBJS	= $(B_SRC:.c=.o)
 CFLAGS	= -Wall -Wextra -Werror
 CC = clang
-NAME_BONUS = libft_bonus.a
 
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	ar rcsT $(NAME) $(OBJS)
+	ar rcs $(NAME) $(OBJS)
 
-bonus: $(NAME) $(NAME_BONUS)
-
-$(NAME_BONUS): $(B_OBJS)
-	ar rcsT $(NAME_BONUS) $(B_OBJS)
-	ar rcsT $(NAME) $(NAME_BONUS)
+bonus: $(NAME) $(B_OBJS)
+	@ar rcsuU $(NAME) $(B_OBJS)
 
 %.o: %.c
 	$(CC) $(CFLAGS) -c $< -o $@
@@ -45,7 +41,6 @@ $(NAME_BONUS): $(B_OBJS)
 clean:
 	rm -f $(OBJS)
 	rm -f $(B_OBJS)
-	rm -f $(NAME_BONUS)
 
 fclean:	clean
 	rm -f $(NAME)
