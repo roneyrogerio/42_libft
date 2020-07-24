@@ -6,7 +6,7 @@
 /*   By: rde-oliv <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/27 19:56:13 by rde-oliv          #+#    #+#             */
-/*   Updated: 2020/07/02 04:05:01 by rde-oliv         ###   ########.fr       */
+/*   Updated: 2020/07/18 08:48:11 by rde-oliv         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,6 +59,7 @@ void			ft_lstadd_back(void **lst, void *new);
 void			ft_lstdelone(void *lst, void (*del)(void*));
 void			ft_lstclear(void **lst, void (*del)(void *));
 void			ft_lstiter(void *lst, void (*f)(void *));
+void			ft_lstitertw(void *lst, void *p, void (*f)(void *, void *));
 void			*ft_lstmap(void *lst, void *(*f)(void *),
 		void (*del)(void *));
 int				ft_isnumber(char *str);
